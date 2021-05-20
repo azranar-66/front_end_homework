@@ -2,10 +2,7 @@
 
 # Домашние задания
 
- ![GitHub repo size][repo size]  ![Spiget Download Size][Download Size] ![GitHub language count][language count] ![GitHub top language][top language] ![GitHub last commit][last commit] ![GitHub  pull requests][pull requests]
  
-  ![GitHub forks][forks] ![GitHub Repo stars][Repo stars]
-
 ---
 
 ![screen](https://i.ytimg.com/vi/aCLMUVLGL9A/maxresdefault_live.jpg)
