@@ -20,7 +20,7 @@ div {
 }
 .right {
     line-height: 300px;
-    background-color: rgb(247, 247, 28);
+    background-color: rgba(247, 247, 28, 0.767);
 }
 
 .one {
@@ -35,20 +35,20 @@ div {
 
 .center {
     width: 200px;
-    background-color: rgb(153, 216, 90);
+    background-color: rgba(153, 216, 90, 0.685);
 }
 .two {
     width: 200px;
     height: 100px;
-    background-color: rgb(165, 38, 38);
+    background-color: rgba(165, 38, 38, 0.767);
 }
 .main > .first > .one,
 .main > .second > .left > .one {
-    background-color: rgb(224, 106, 224);
+    background-color: rgba(224, 106, 224, 0.788);
 }
 .west {
     width: 100px;
     height: 200px;
     line-height: 200px;
-    background-color: rgb(92, 164, 167);
+    background-color: rgba(92, 165, 167, 0.788);
 }
