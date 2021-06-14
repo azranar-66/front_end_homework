@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Google";
+    src: url(../fonts/GoogleSans-Regular.ttf);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #202124;
+}
+
+.picture_img {
+    width: 244px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.333;
+    font-family: "Google", sans-serif;
+}
+
+.h2 {
+    font-family: "Google", sans-serif;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 400px;
+    margin-right: 48px;
+}
+
+.form_2 {
+    display: none;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(209, 1, 1);
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 2px;
+}
+.container {
+    width: 800px;
+    box-sizing: border-box;
+    padding: 48px 40px 36px 40px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+    display: flex;
+    margin: 50px auto;
+}
+
+.surname,
+.confirm {
+    height: 17px;
+    width: 160px;
+}
+
+.error {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: rgb(209, 1, 1);
+}
+
+.picture {
+    margin-top: 75px;
+}
+
+.picture_text {
+    font-size: 16px;
+    color: #202124;
+    font-family: "Roboto", sans-serif;
+    width: 186px;
+    text-align: center;
+    margin: 10px auto auto auto;
+}
+
+.name {
+    margin-left: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -18px;
+}
+
+.email {
+    width: 360px;
+}
+
+.name_surname_name {
+    width: 200px;
+}
+
+svg {
+    margin-top: 3px;
+}
+
+.confirm {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.pass {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.pass_confirm {
+    width: 200px;
+}
+
+.checkbox {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #202124;
+    cursor: pointer;
+}
+
+.use {
+    font-size: 14px;
+    color: #1a73e8;
+    font-family: "Google", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0107142857em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.clblue {
+    color: rgb(95, 95, 253);
+}
+
+.clred {
+    color: rgb(211, 5, 5);
+}
+
+.clgreen {
+    color: green;
+}
+
+.clyellow {
+    color: rgb(255, 187, 0);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.href {
+    font-size: 14px;
+    color: #1a73e8;
+    font-family: "Google", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0107142857em;
+    cursor: pointer;
+}
+
+button {
+    background-color: #1a73e8;
+    padding: 10px 20px;
+    color: white;
+    font-family: "Google", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: 0;
+    box-sizing: border-box;
+    border: 1px solid #1a73e8;
+    cursor: pointer;
+    width: 80px;
+}
+.name_surname {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+input[type="text"]:focus,
+input:active {
+    border: 2px solid rgb(209, 1, 1);
+    outline: 0;
+    outline-offset: 0;
+}
+
+.confirm:active,
+.confirm:focus {
+    border: 2px solid #1a73e8 !important;
+}
+
+#show {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .picture {
+        display: none;
+    }
+
+    .container {
+        width: 465px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        border: none;
+    }
+
+    .form_1 {
+        display: none;
+    }
+
+    .form_2 {
+        display: block;
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    input[type="text"],
+    .surname {
+        width: 360px;
+    }
+
+    .surname {
+        margin-top: 20px;
+    }
+
+    .confirm {
+        width: 360px;
+        margin-top: 20px;
+    }
+
+    .checkbox {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+}
