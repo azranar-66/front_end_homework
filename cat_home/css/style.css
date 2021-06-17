@@ -115,6 +115,7 @@ body {
   border-radius: 50%;
   position: absolute;
   transform: rotate(-89deg);
+  transition: transform .5s;
 }
 #circle7 {
   position: absolute;
@@ -170,6 +171,93 @@ body {
   border-top: 100px solid rgb(236 156 99);
   border-right: 36px solid transparent;
 }
+
+#circle4:hover {
+  animation-name: triangle;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+
+
+#circle6 {
+  top: -91px;
+  left: -226px;
+}
+
+#circle5 {
+  top: -89px;
+  left: -164px;
+}
+.start,
+.end {
+  position: fixed;
+  top: 5px;
+  text-decoration: none;
+  display: block;
+  font-size: 35px;
+  color: rgb(0, 13, 128);
+  padding: 10px;
+  background: rgb(106, 146, 4);
+  border-radius: 50px;
+}
+
+.start {
+  left: 830px;
+}
+
+.end {
+  left: 980px;
+}
+
+
+
+#circle4:hover {
+  animation-name: triangle;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+}
+#circle7:hover {
+  animation-name: triangle;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+}
+
+
+
+
+
+@keyframes triangle {
+  0% {
+    background: rgb(212, 212, 212);
+  }
+  30% {
+    background: rgb(0, 255, 42);
+  }
+  40% {
+    background: rgb(27, 24, 201);
+  }
+  50% {
+    background: rgb(24, 166, 201);
+  }
+  60% {
+    background: rgb(215, 215, 233);
+  }
+  70% {
+    background: rgb(180, 24, 201);
+  }
+  80% {
+    background: rgb(194, 165, 0);
+  }
+  90% {
+    background: rgb(185, 0, 130);
+  }
+  100% {
+    background: rgb(190, 0, 105);
+  }
+}
+
+
 #starshipandromeda {
   top: 14px;
   left: 261px;
@@ -177,7 +265,12 @@ body {
   background: #cd6d45;
   height: 33px;
   width: 5px;
-  transform: rotate(-57deg);
+  
+  animation-duration: 5s;
+  animation-name: rotat;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
 }
 
 #starshipandromeda:after {
@@ -188,4 +281,20 @@ body {
   position: absolute;
   left: -15px;
   top: 14px;
+  animation-duration: 5s;
+  animation-name: rotat;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
 }
+
+
+@keyframes rotat{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
